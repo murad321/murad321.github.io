@@ -1,0 +1,225 @@
+BODY { background-color:#fff; }
+/*BODY {SCROLLBAR-FACE-COLOR: b06e20; SCROLLBAR-HIGHLIGHT-COLOR: #D6D7E2; SCROLLBAR-SHADOW-COLOR: #bcdede; SCROLLBAR-3DLIGHT-COLOR: #555555; SCROLLBAR-ARROW-COLOR: #ffffff; SCROLLBAR-TRACK-COLOR: #f2f2f2; SCROLLBAR-DARKSHADOW-COLOR: #000080; background-color:#fff}*/
+TD {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+H1 {FONT-SIZE: 15px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+
+.hh1 {FONT-SIZE: 12px; text-align:right; height:7px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+.hh2 {FONT-SIZE: 12px; text-align:left; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+.green {color:#80ff00;}
+.middle {font-size:18px;}
+
+A.menukorz:link {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: white ; TEXT-DECORATION: Underline}
+A.menukorz:visited {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR:  white; TEXT-DECORATION: Underline}
+A.menukorz:active {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR:  white; TEXT-DECORATION: Underline}
+A.menukorz:hover {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR:  white; TEXT-DECORATION: Underline}
+
+.ser {background-color:white;}
+.ser td a.tov b {padding:0 10px;}
+
+.submit3 {font-family: "Trebush MS", "Tahoma", "Sans-serif"; font-size:12; background-color:#F3F3F3;}
+.submit31 {font-family: "Trebush MS", "Tahoma", "Sans-serif"; font-size:11; background-color:#F3F3F3;}
+select.submit31 {width:150px;}
+.submit4 {font-family: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: white; font-size:14; background-color:red;}
+.submit5 {font-family: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; margin-left:-4px; font-size:14; background-color:white;}
+
+.Telefon {text-decoration: none; font:14pt; color: white}
+
+.Telefon2 {text-decoration: none; font:14pt; color:white}
+
+.ofor {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY:  "Verdana", "Trebush MS", "Tahoma", "Sans-serif"; COLOR: 280c01; TEXT-DECORATION: none; Font-weight:bolder; }
+
+.textser {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: #000023; TEXT-DECORATION: none;}
+.textblok {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: #000023; TEXT-DECORATION: none}
+.textred {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+.textcen {FONT-SIZE: 15px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+
+.textcen11 {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+
+.cen11 {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: gray; TEXT-DECORATION: none}
+
+.textcen3 {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+.textcen2 {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+.textcen1 {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+.page1 {FONT-SIZE: 11px; letter-spacing:1px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+
+A.menuser:link {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: e7ad0b; TEXT-DECORATION: none;}
+A.menuser:visited {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: e7ad0b; TEXT-DECORATION: none;}
+A.menuser:active {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: e7ad0b; TEXT-DECORATION: none;}
+A.menuser:hover {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: e7ad0b; TEXT-DECORATION: Underline;}
+ul.menu {list-style:none;}
+/* CSS Document */
+ul.menu,
+ul.menu li,
+ul.menu ul {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  list-style: none;
+}
+
+ul.menu:after {
+  clear: both;
+  display: block;
+  font: 1px/0px serif;
+  content: ".";
+  height: 0;
+  visibility: hidden;
+}
+
+ul.menu li {
+  float: left; 
+  display: block !important; 
+  display: inline; 
+  position: relative;
+  width:200px;
+}
+ul.menu li ul li {
+border:none;
+width:200px;
+background:url('images/bgleft1.gif') left repeat-y;
+}
+.bglineyell {
+  width:200px;
+  height:3px;
+  background:url('images/bgline11.gif') bottom no-repeat;
+  font-size:3px;line-height:3px;
+}
+ul.menu li ul li.bglineyell {
+  background:url('images/bgline11.gif') bottom no-repeat;
+}  
+.sub_menu {
+	width:200px;
+	
+}
+.loader {
+ display:none;
+}
+.menu_top {
+	width:200px;
+	height:17px;
+	background:url('images/bgline2.png') center no-repeat !important;
+}
+.menu_bottom {
+	width:200px;
+	height:17px;
+	background:url('images/bgline1.png') center no-repeat !important;
+}
+
+/* Root Menu */
+ul.menu a {
+  padding: 0 6px;
+  display: block;
+  height: auto !important;
+  height: 1%; 
+  font-size: 14px; 
+  cursor:pointer;
+  width:190px;
+  letter-spacing:0px; 
+  font-family: "Verdana", "Trebush MS", "Tahoma", "Sans-serif"; 
+  color: fdff9c; 
+  text-decoration: none; 
+  font-weight:bolder;
+}
+
+
+#podbor td {
+	color:#FDFF9C;
+}
+
+ul.menu ul,
+ul.menu ul ul,
+ul.menu ul ul ul {
+  display: none;
+  position: absolute;
+  top: -17px;
+  left: 198px;
+}
+
+
+ul.menu li:hover ul ul,
+ul.menu li:hover ul ul ul,
+ul.menu li.iehover ul ul,
+ul.menu li.iehover ul ul ul {
+  display: none;
+}
+
+ul.menu li:hover ul,
+ul.menu ul li:hover ul,
+ul.menu ul ul li:hover ul,
+ul.menu li.iehover ul,
+ul.menu ul li.iehover ul,
+ul.menu ul ul li.iehover ul {
+  display: block;
+}
+
+A.menu:link {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu:visited {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu:active {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu:hover {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: Underline; Font-weight:bolder; }
+
+
+A.menu1{FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu1:link {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu1:visited {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu1:active {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu1:hover {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: Underline; Font-weight:bolder; }
+
+
+A.menu11:link {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu11:visited {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu11:active {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: none; Font-weight:bolder; }
+A.menu11:hover {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: fdff9c; TEXT-DECORATION: Underline; Font-weight:bolder; }
+
+
+
+A.menuraz:link {FONT-SIZE: 17px; letter-spacing:0px; FONT-FAMILY: "Cyrillic Univercsity", "Trebush MS", "Tahoma", "Sans-serif"; COLOR: ff8080; TEXT-DECORATION: none;}
+A.menuraz:visited {FONT-SIZE: 17px; letter-spacing:0px; FONT-FAMILY: "Cyrillic Univercsity", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: ff8080; TEXT-DECORATION: none;}
+A.menuraz:active {FONT-SIZE: 17px; letter-spacing:0px; FONT-FAMILY: "Cyrillic Univercsity", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: ff8080; TEXT-DECORATION: none;}
+A.menuraz:hover {FONT-SIZE: 17px; letter-spacing:0px; FONT-FAMILY: "Cyrillic Univercsity", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: ff8080; TEXT-DECORATION: Underline;}
+
+A.menured:link {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: Underline; Font-weight:bolder; }
+A.menured:visited {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: Underline; Font-weight:bolder; }
+A.menured:active {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: Underline; Font-weight:bolder; }
+A.menured:hover {FONT-SIZE: 13px; letter-spacing:0px; FONT-FAMILY: "Verdana", "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: Underline; Font-weight:bolder; }
+
+A.menugg:link {FONT-SIZE: 12px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: ff8080 ; TEXT-DECORATION: none}
+A.menugg:visited {FONT-SIZE: 12px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: ff8080 ; TEXT-DECORATION: none}
+A.menugg:active {FONT-SIZE: 12px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: ff8080 ; TEXT-DECORATION: none}
+A.menugg:hover {FONT-SIZE: 12px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+
+A.menusm:link {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: white; TEXT-DECORATION: Underline}
+A.menusm:visited {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: white; TEXT-DECORATION: Underline}
+A.menusm:active {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: white; TEXT-DECORATION: Underline}
+A.menusm:hover {FONT-SIZE: 11px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Tahoma", "Verdana", "Arial", "Sans-serif"; COLOR: white; TEXT-DECORATION: Underline}
+
+A.tov:link {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+A.tov:visited {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+A.tov:active {	FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Arial", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+A.tov:hover {FONT-SIZE: 14px; letter-spacing:0px; FONT-FAMILY: "Trebush MS", "Arial", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+
+a.page {font-size:15px;}
+A.page:link { letter-spacing:1px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+A.page:visited { letter-spacing:1px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+A.page:active {	letter-spacing:1px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: black; TEXT-DECORATION: none}
+A.page:hover { letter-spacing:1px; FONT-FAMILY: "Trebush MS", "Tahoma", "Sans-serif"; COLOR: D2232C; TEXT-DECORATION: none}
+
+#findex table {text-align:center;}
+
+#css_menu.menu > li > a {line-height:30px;} 
+#css_menu.menu li { font-size:15px;} 
+ #css_menu.menu  li  ul.sub_menu li > a.menu1 {font-size:13px;}
+ .hidden {display:none !important;visibility:hidden !important;}
+ #css_menu li li a {color:black;}
+ 
+ .text_info {width:70%;margin:20px auto;font-size:120%;text-align:justify;}
+ 
+ 
+ body#cartbody {background:#faf1ec url(/images/cart-bg0.gif) right bottom repeat-x !important;}
+ body#cartbody div.bg {background:transparent url(/images/cart-bg2.gif) right bottom no-repeat;}
+ body#cartbody table {background:transparent !important;}
+ 
+ .catalog h1, article h1 {font-size:26px;}
+ .catalog h2, article h2 {font-size:20px;}
+ a button {color:black;}
+ 
+ 

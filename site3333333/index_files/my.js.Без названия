@@ -1,0 +1,72 @@
+function include( filename ) {	// The include() statement includes and evaluates the specified file.
+	var js = document.createElement('script');
+	js.setAttribute('type', 'text/javascript');
+	js.setAttribute('src', filename);
+	js.setAttribute('defer', 'defer');
+	document.getElementsByTagName('HEAD')[0].appendChild(js);
+}
+navHover = function() {
+	var lis = document.getElementById("css_menu").getElementsByTagName("LI");
+	for (var i=0; i<lis.length; i++) {
+		lis[i].onmouseover=function() {
+			this.className+=" iehover";
+		}
+		lis[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" iehover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", navHover);
+// include ('/images/jquery.min.js');
+
+window.onload = function(){
+
+$('.submit31').css('width','150px');
+	$('form#filter select').change(function(){
+
+	
+		console.log($(this).val());
+		form = $('form#filter');
+		var qs = '';
+		post = $(form).find(" :hidden,select").serialize(); //.css('border','solid 5px yellow')
+		post1 = qs+post;
+		$.post('/images/filter.php',post1, function(data) { //{string:post1}
+
+		  data = $.parseJSON( data);
+			for (var key in data['result']) {
+				sel = $("[name="+key+"]").get(0);
+				if (typeof(sel)=='undefined')
+					continue;
+				current = $(sel).val();
+				$(sel).empty();
+				$(sel).prepend( $('<option value="0">Показать все</option>'));
+				
+				for (var value in data['result'][key])
+					$(sel).append($('<option value="'+value+'">'+value+'</option>'));
+				$(sel).children("[value='"+current+"']").attr('selected','selected');
+				
+			}
+			$('form#filter select').trigger('refresh');
+		});
+		
+	});
+	
+$('body').on('submit', '#popup_feedback', function(){
+		$.post('/popup_feedback.php',$('#popup_feedback').serialize(), function(data){
+
+			if (typeof(data.errors)!='undefined') {
+				alert (data.errors);
+			} else {
+				alert (data.result);
+				//hs.close();
+				$.fancybox.close();
+			}
+		}, "json");//
+
+		return false;
+});
+		
+try {
+	$('form#filter select:first').change();
+} catch (err) {}
+}//);
