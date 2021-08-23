@@ -252,7 +252,7 @@ ul{
 }
 @media (min-width:900px) {
     .top{
-        background-image: url('..//images/bg/top-bg.jpg')
+        background-image: url('/site2/images/bg/top-bg.jpg')
     }
 }
 .top__heading{
@@ -579,7 +579,7 @@ ul{
     position: absolute;
     width: 20px;
     height: 20px;
-    background-image:url(../images/icon/check.svg);
+    background-image:url(/site2/images/icon/check.svg);
     background-repeat:no-repeat;
     margin: 0px 0px 0px -22px;
 }
@@ -719,7 +719,7 @@ ul{
 
 
 .complete {
-    background-image: url(../images/bg/complete-mobile.png);
+    background-image: url(/site2/images/bg/complete-mobile.png);
     width: 100%;
     height: 2432px;
     max-width: 2200px;
@@ -732,7 +732,7 @@ ul{
 }
 @media (min-width:769px) {
     .complete{
-        background-image: url(../images/bg/complete.jpg);
+        background-image: url(/site2/images/bg/complete.jpg);
     }
 }
 
@@ -826,7 +826,7 @@ ul{
 
 
 .believe {
-    background-image: url(../images/bg/believe-mobile.jpg);
+    background-image: url(/site2/images/bg/believe-mobile.jpg);
     max-width: 2200px;
     height: 992px;
     margin: 0 auto;
@@ -837,7 +837,7 @@ ul{
 }
 @media (min-width:769px) {
     .believe{
-        background-image: url(../images/bg/believe.jpg);
+        background-image: url(/site2/images/bg/believe.jpg);
     }
 }
 .container {
@@ -1222,7 +1222,7 @@ ul{
     margin: 5px;
     background-color:#FFFFFF;
     cursor: pointer;
-    background-image:url(/images/icon/arrow-left.svg);
+    background-image:url(/site2/images/icon/arrow-left.svg);
      background-repeat: no-repeat;
      background-position-x: center;
      background-position-y: center;
@@ -1266,7 +1266,7 @@ ul{
      margin: 5px;
      background-color:#FFFFFF;
      cursor: pointer;
-     background-image:url(/images/icon/arrow-right.svg);
+     background-image:url(/site2/images/icon/arrow-right.svg);
      background-repeat: no-repeat;
      background-position-x: center;
      background-position-y: center;
@@ -1353,7 +1353,7 @@ ul{
     max-height: 572px;
     padding: 64px 0px;
     overflow: hidden;
-    background-image:url(/images/bg/integrations-bg-mobile.png);
+    background-image:url(/site2/images/bg/integrations-bg-mobile.png);
     background-repeat:no-repeat;
     background-position-x: center;
     background-position-y: center;
@@ -1368,7 +1368,7 @@ ul{
 } */
 @media (min-width:1100px) {
     .integrations{
-        background-image:url(/images/bg/integrations-bg.png);
+        background-image:url(/site2/images/bg/integrations-bg.png);
         background-size: cover;
         max-width: 2200px;
         margin: 0 auto;
@@ -1859,14 +1859,14 @@ ul{
 .feature {
     padding: 128px 0px;
     overflow: hidden;
-    background-image:url(/images/bg/feature-bg-mobile.png.png);
+    background-image:url(/site2/images/bg/feature-bg-mobile.png.png);
     background-repeat:no-repeat;
     background-position-x: center;
     background-position-y: bottom;
 }
 @media (min-width:768px) {
     .feature{
-        background-image:url(/images/bg/feature-bg.png);
+        background-image:url(/site2/images/bg/feature-bg.png);
         padding: 64px 0px;
     }
     
@@ -2441,7 +2441,7 @@ text-decoration: underline;
     line-height: 65px;
 }
 .top{
-    background-image: url('../images/bg/top-bg-mobile.jpg');
+    background-image: url('/site2/images/bg/top-bg-mobile.jpg');
     background-position-y: 82% ;
     height: 970px;
     
