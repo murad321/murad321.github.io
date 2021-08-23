@@ -252,7 +252,7 @@ ul{
 }
 @media (min-width:900px) {
     .top{
-        background-image: url('../images/bg/top-bg.jpg')
+        background-image: url('..//images/bg/top-bg.jpg')
     }
 }
 .top__heading{
