@@ -104,7 +104,6 @@ ul{
     display: flex;
     place-content: center;
 }
-
 .about__info-item{
     margin-bottom: 25px;
     color: #E5E5E5;
@@ -124,6 +123,11 @@ ul{
     background-repeat: no-repeat;
     text-align: right;
 }
+body._touch .menu__list > li{
+    display: flex;
+    align-items: center;
+    padding-right: 25px;
+}
 .video__text{
     font-style: italic;
     font-weight: 300;
@@ -142,7 +146,7 @@ ul{
     padding: 38px ;
     position: relative;
     margin-right: 170px;
-
+    
 }
 .video__btn::before{
     content:'';
@@ -161,7 +165,7 @@ ul{
     content:'';
     background-image: url(../images/youtube-btn-hover.svg);
     box-shadow: 0px 0px 14px 2px #e43227;
-
+    
 }
 .video__btn-text{
     box-shadow: inset 0px 0px 60px 5px #000,0px 0px 10px 0px #000;
@@ -301,15 +305,14 @@ ul{
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     position: relative;
-    
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
-
-
+    
+    
 }
 
 .menu__container{
@@ -321,6 +324,9 @@ ul{
     align-items: center;
     justify-content: space-between;
     min-height: 70px;
+}
+.menu__header-flex{
+    display: flex;
 }
 
 .page-logo{
@@ -335,7 +341,23 @@ ul{
     height: 116px;
     padding: 5px 10px;
 }
+.menu-logo__container{
+    width: 200px;
+    padding: 0 10px;
+    display: flex;
+    place-content: center;
+}
 
+.menu-page-logo{
+    width: 200px;
+}
+.menu-page-logo img{
+    width: 200px;
+    background-color:#0e0e0e9e;
+    border-radius: 16px;
+    height: 36px;
+    padding: 5px 10px;
+}
 .season-info{
     position: absolute;
     max-width: 1383px;
@@ -370,12 +392,15 @@ ul{
 /*end season-1 */
 
 /* start media */
-
-@media(max-width:1420px){
-    /* .page-logo{
-        left: 10px;
-        top: -45px;
-    } */
+@media (min-width:2000px) {
+    .page-header {
+        background-size: auto;
+    }
+}
+@media(max-width:1425px){
+    .menu__container{
+        padding: 0;
+    }
 }
 @media(max-width:1366px){
     .logo__img{
@@ -390,6 +415,10 @@ ul{
     }
     .page-header{
         height: 120vh;
+    }
+    .page-header {
+        background-size: contain;
+        background-position: top
     }
 }
 
@@ -412,6 +441,12 @@ ul{
     .seasons__item{
         height: 506px;
     }
+    body._touch .menu__list > li {
+        padding-right: 15px;
+    }
+    .menu__link{
+        font-size: 21px;
+    }
 }
 
 @media(max-width: 1020px){
@@ -425,6 +460,12 @@ ul{
     /* .page-logo{
         display: none;
     } */
+    body._touch .menu__list > li {
+        padding-right: 10px;
+    }
+    .menu__link{
+        font-size: 17px;
+    }
 }
 
 @media(max-width:768px){
@@ -501,6 +542,30 @@ ul{
         font-size: 25px;
         line-height: 32px;
     }
+    .menu__container {
+        margin: 0;
+        padding: 0 0px;
+
+    }
+    .page-logo {
+        width: 260px;
+    }
+    .page-logo img {
+        width: 260px;
+    } 
+    .logo__container {
+        display: none;
+    }
+    .menu-logo__container{
+        display: block;
+    } 
+    .menu-page-logo {
+        display: block;
+    }
+    .menu-page-logo img {
+
+    }
+    
 }
 
 
@@ -616,12 +681,10 @@ ul{
  /*    background-color: #912105; */
 } 
 .header__container {
-    max-width: 1200px;
     margin: 0 auto;
-    display: flex;
+    
     padding: 0 30px;
-    align-items: center;
-    justify-content:space-around;
+   
     min-height: 70px;
     background: linear-gradient(
         180deg
@@ -634,10 +697,6 @@ body._pc .menu__list > li:hover .menu__sub-list {
     visibility: visible;
     transform: translate(0px, 0px);
     pointer-events: all;
-}
-body._touch .menu__list > li{
-    display: flex;
-    align-items: center;
 }
 body._touch .menu__link{
     flex: 1 1 auto;
@@ -665,7 +724,7 @@ body._touch .menu__list > li._active .menu__arrow{
 
 
 /* ------------------------------------ */
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .menu__list{
         display: flex;
         align-items: center;
@@ -684,12 +743,12 @@ body._touch .menu__list > li._active .menu__arrow{
 } 
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .header__container {
         background: linear-gradient( 
             180deg
              , #111213 99%, #111213 31.62%, rgba(32, 31, 33, 0) 97.33%);
-        justify-content: flex-end;
+        
     } 
 
     .menu__icon{
