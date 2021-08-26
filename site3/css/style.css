@@ -640,9 +640,7 @@ body._touch .menu__list > li{
 }
 
 @media (max-width:374px) {
-    .page-header{
-       /*  height: 200vh; */
-    }
+    
 }
 
 /* end media */
@@ -845,10 +843,10 @@ body._touch .menu__list > li._active .menu__arrow{
         border-radius: 8px;
     }
     body._touch .menu__list > li {
-        padding-right: 0px;
-        padding: 17px 80px;
+        padding: 0;
     }
     .menu__list > li :last-child{
+        padding: 17px 80px;
         margin-bottom: 0;
     }
     .menu__list > li._active {
