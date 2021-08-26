@@ -301,18 +301,21 @@ body._touch .menu__list > li{
 }
 
 .page-header{
-    background-image: url(../images/bg/4.jpg);
+    background-image: url(../images/bg/4-mobile.jpg);
     background-repeat: no-repeat;
     background-position:center center;
     background-size: cover;
-    height: 100vh;
     position: relative;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 10;
-    
-    
+    height: 70rem; 
+}
+@media (min-width:641px) {
+    .page-header {
+        background-image: url(../images/bg/4.jpg);
+    }
 }
 
 .menu__container{
@@ -347,7 +350,12 @@ body._touch .menu__list > li{
     display: flex;
     place-content: center;
 }
+.menu-logo__container._active{
+    background:#000;
+    padding: 15px 10px;
+    width: 100%;
 
+}
 .menu-page-logo{
     width: 200px;
 }
@@ -413,12 +421,9 @@ body._touch .menu__list > li{
     .about__info{
         width: 250px;
     }
-    .page-header{
-        height: 120vh;
-    }
     .page-header {
         background-size: contain;
-        background-position: top
+        background-position: top;
     }
 }
 
@@ -558,12 +563,16 @@ body._touch .menu__list > li{
     }
     .menu-logo__container{
         display: block;
+        z-index: 5;
     } 
     .menu-page-logo {
         display: block;
     }
     .menu-page-logo img {
 
+    }
+    .page-header{
+        height: 51rem;
     }
     
 }
@@ -606,7 +615,7 @@ body._touch .menu__list > li{
 
  
     .page-header{
-        height: 160vh;
+        height: 79rem;
     }
     .seasons__item{
         width: 350px;
@@ -624,12 +633,15 @@ body._touch .menu__list > li{
     }
     .seasons__item {
         width: 303px;
-}
+    }
+    .page-header{
+        height: 75rem;
+    }
 }
 
 @media (max-width:374px) {
     .page-header{
-        height: 200vh;
+       /*  height: 200vh; */
     }
 }
 
@@ -679,10 +691,10 @@ body._touch .menu__list > li{
     width: 100%;
    /*  z-index: 10; */
  /*    background-color: #912105; */
+
 } 
 .header__container {
     margin: 0 auto;
-    
     padding: 0 30px;
    
     min-height: 70px;
@@ -807,6 +819,7 @@ body._touch .menu__list > li._active .menu__arrow{
         padding: 100px 30px 30px 30px;
         transition: left 0.3s ease 0s;
         overflow: auto;
+        z-index: 4;
     }
     .menu__body._active{
        left: 0;
@@ -826,7 +839,14 @@ body._touch .menu__list > li._active .menu__arrow{
     }
     .menu__list > li {
         flex-wrap: wrap;
-        margin: 0px 0px 30px 0px;
+        margin: 0px 0px 40px 0px;
+        align-self: center;
+        background-color: #ffffff4d;
+        border-radius: 8px;
+    }
+    body._touch .menu__list > li {
+        padding-right: 0px;
+        padding: 17px 80px;
     }
     .menu__list > li :last-child{
         margin-bottom: 0;
@@ -838,4 +858,4 @@ body._touch .menu__list > li._active .menu__arrow{
         font-size: 24px;
     }
   
-}
+}    
