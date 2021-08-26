@@ -488,7 +488,7 @@ body._pc .menu__list > li{
     }
     .header{
         height: 42rem;
-        background-size:contain;
+        /* background-size:contain; */
     }
 }
 
