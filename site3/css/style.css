@@ -509,6 +509,9 @@ body._pc .menu__list > li{
         font-size: 16px;
         line-height: 19px;
     }
+    .video{
+        background-size: contain;
+    } 
     .video__text {
         font-size: 48px;
         line-height: 56px;
@@ -649,10 +652,21 @@ body._pc .menu__list > li{
     .header {
         height: 28rem;
     }
+    .video{
+        height: 66vh;
+    }
+    .video__text {
+        padding-top: 17vh;
+        font-size: 46px;
+        line-height: 45px;
+    }
 }
 @media(max-width:500px){
     .header {
         height: 23rem;
+    }
+    .video__text{
+        padding-right: 0px;
     }
 }
 
@@ -668,6 +682,23 @@ body._pc .menu__list > li{
     }
     .header {
         height: 20rem;
+    }
+    .video {
+        height: 38vh;
+        background-size: cover;
+    }
+    .video__btn::before {
+        top: 0px;
+        left: -25px;
+    }
+    .video__btn {
+        padding: 17px;
+    }
+    .video__text {
+        padding-top: 2vh;
+    }
+    .video__text span {
+    padding-right: 100px;
     }
 }
 
