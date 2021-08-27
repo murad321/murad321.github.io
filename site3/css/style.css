@@ -312,9 +312,15 @@ body._pc .menu__list > li{
         background-image: url(../images/bg/4.jpg);
     }
 }
+
 .page-header._page-5{
-    height:70rem;
+    height:65rem;
 }
+.page-header._page-4{
+    height: 50rem;
+}
+
+
 
 .menu__container{
     max-width: 1383px;
@@ -426,6 +432,12 @@ body._pc .menu__list > li{
         background-size: contain;
         background-position: top;
     }
+    .page-header._page-5{
+        height:60rem;
+    }
+    .page-header._page-6 {
+        height:60rem;
+    }
 }
 
 
@@ -441,6 +453,12 @@ body._pc .menu__list > li{
         max-width :100%;
     }
     .header{
+        height: 55rem;
+    }
+    .page-header._page-5{
+        height:54rem;
+    }
+    .page-header._page-6 {
         height: 55rem;
     }
 }
@@ -461,6 +479,12 @@ body._pc .menu__list > li{
 @media(max-width: 1020px){
     .seasons__item{
         height: 655px;
+    }
+    .page-header._page-5 {
+        height: 51rem;
+    }
+    .page-header._page-6 {
+        height: 50rem;
     }
 }
 
@@ -578,6 +602,15 @@ body._pc .menu__list > li{
     .page-header{
         height: 51rem;
     }
+    .page-header._page-4 {
+        height: 43rem;
+    }
+    .page-header._page-5 {
+        height: 39rem;
+    }
+    .page-header._page-6 {
+        height: 41rem;
+    }
     .header {
         height: 34rem;
     }
@@ -590,6 +623,9 @@ body._pc .menu__list > li{
     
     .page-header{
         height: 79rem;
+    }
+    .page-header._page-3 {
+        height: 72rem;
     }
     .seasons__item{
         width: 350px;
@@ -609,6 +645,15 @@ body._pc .menu__list > li{
         font-size: 46px;
         line-height: 45px;
     }
+    .page-header._page-4 {
+        height: 70rem;
+    }
+    .page-header._page-5 {
+        height: 64rem;
+    }
+    .page-header._page-6 {
+        height: 65rem;
+    }
 }
 @media(max-width:500px){
     .header {
@@ -616,6 +661,15 @@ body._pc .menu__list > li{
     }
     .video__text{
         padding-right: 0px;
+    }
+    .page-header._page-4 {
+        height: 59rem;
+    }
+    .page-header._page-5 {
+        height: 55rem;
+    }
+    .page-header._page-6 {
+        height: 54rem;
     }
 }
 
@@ -628,6 +682,9 @@ body._pc .menu__list > li{
     }
     .page-header{
         height: 75rem;
+    }
+    .page-header._page-3 {
+        height: 64rem;
     }
     .header {
         height: 20rem;
@@ -648,6 +705,12 @@ body._pc .menu__list > li{
     }
     .video__text span {
     padding-right: 100px;
+    }
+    .page-header._page-5 {
+        height: 49rem;
+    }
+    .page-header._page-6 {
+        height: 51rem;
     }
 }
 
@@ -844,5 +907,8 @@ body._touch .menu__list > li._active .menu__arrow{
     }
     .header{
         height: 18rem;
+    }
+    .page-header._page-4 {
+        height: 55rem;
     }
 }
