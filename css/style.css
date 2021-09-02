@@ -457,6 +457,11 @@ header{
   color: #5F5D5D;
   box-shadow:inset 0px 0px 5px 0px #aeaeae99, 0px 0px 9px 0px #94949499;
   border-radius:13px;
+  transition: all 0.1s;
+}
+.feedback__input-name:focus-visible{
+  outline: none;
+  box-shadow: inset 0px 0px 1px 1px rgb(79 226 21),  0px 0px 9px 0px #94949499;
 }
 
 
@@ -473,8 +478,23 @@ header{
   color: #5F5D5D;
   box-shadow: inset 0px 0px 5px 0px #aeaeae99, 0px 0px 9px 0px #94949499;
   border-radius:13px;
+  transition: all 0.1s;
 }
-
+.feedback__input-email:invalid{
+  box-shadow: inset 0px 0px 1px 1.3px #f51818, 0px 0px 9px 0px #94949499;
+  border: none;
+  
+}
+.feedback__input-email:invalid:focus-visible{
+  outline: none;
+  box-shadow: inset 0px 0px 1px 1.3px #f51818, 0px 0px 9px 0px #94949499;
+ 
+}
+.feedback__input-email:focus-visible{
+  outline: none;
+  box-shadow: inset 0px 0px 1px 1px rgb(79 226 21),  0px 0px 9px 0px #94949499;
+  
+}
 .feedback__input-2{
   display: flex;
   flex-direction: column;
@@ -483,17 +503,24 @@ header{
 
 .feedback__input-message{
   width: 540px;
-  height: 175px;
+  height: 185px;
   background: #fff;
   border: none;
   font-size: 14px;
   line-height: 23px;
   color: #5F5D5D;
-  padding: 17px 0px 143px 20px;
+  padding: 17px 17px 143px 20px;
   margin-bottom: 50px;
   box-shadow: inset 0px 0px 14px 1px #aeaeae99, 0px 0px 9px 0px #94949499;
   border-radius:22px;
-
+  transition: all 0.1s;
+  min-height: 185px;
+  max-height: 400px;
+  resize: vertical;
+}
+.feedback__input-message:focus-visible{
+  outline: none;
+  box-shadow: inset 0px 0px 1px 1px rgb(79 226 21),  0px 0px 9px 0px #94949499;
 }
 
 .feedback__btn{
@@ -961,7 +988,7 @@ header{
 @media (max-width:535px ){
   .feedback__input-message{
     width: 255px;
-    padding: 17px 0px 143px 15px;
+    padding: 17px 17px 143px 15px;
   }
   .feedback__input-name{
     padding: 0px 0px 0px 15px;
