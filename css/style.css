@@ -503,20 +503,20 @@ header{
 
 .feedback__input-message{
   width: 540px;
-  height: 185px;
+ min-height: 185px; 
   background: #fff;
   border: none;
   font-size: 14px;
   line-height: 23px;
   color: #5F5D5D;
-  padding: 17px 17px 143px 20px;
+  padding: 17px 17px 17px 20px;
   margin-bottom: 50px;
   box-shadow: inset 0px 0px 14px 1px #aeaeae99, 0px 0px 9px 0px #94949499;
   border-radius:22px;
   transition: all 0.1s;
-  min-height: 185px;
-  max-height: 400px;
-  resize: vertical;
+  overflow: hidden;
+  resize: none;
+ 
 }
 .feedback__input-message:focus-visible{
   outline: none;
