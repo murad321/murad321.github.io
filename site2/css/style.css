@@ -2503,7 +2503,7 @@ text-decoration: underline;
     ._anim-show._active, ._active ._anim-show {
         opacity: 1;
         transform: translate(0px, 0px);
-        height: 1020px;
+        height: 900px;
     }
     .tabs__bg{
         place-self: flex-end;
@@ -2669,7 +2669,11 @@ text-decoration: underline;
 .footer__column{
     padding-right: 75px;
 }
-
+.tabs__title {
+    font-size: 42px;
+    line-height: 70px;
+    padding: 0;
+}
 }
 
 
@@ -2785,7 +2789,7 @@ text-decoration: underline;
         line-height: 42px;
     }
     ._anim-show._active, ._active ._anim-show {
-        height: 900px;
+        height: 800px;
     }
     
 }
