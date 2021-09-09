@@ -453,8 +453,7 @@ ul{
     color: #FFFFFF;
 }
 
-.smart__contracts-img {
-}
+
 .contracts__img {
     width: 100%;
 }
@@ -485,9 +484,6 @@ ul{
 }
 .tabs-triggers {
     display: flex;
-
-    /* overflow-x: scroll */
-    
 }
 .tabs-triggers__item::before{
     content: '';
@@ -527,13 +523,6 @@ ul{
     background-repeat: no-repeat;
 }
 
-/* .tabs-triggers__item--active {
-    background-color: #00c3d5;
-    
-} */
-
-.tabs-content {
-}
 .tabs-content__item {
     padding: 3rem 6rem;
     display: table-column;
@@ -607,12 +596,9 @@ ul{
 
 
 .tabs__bg{
-   /*  background-image: url(/images/tabs.png); */
    max-width: 420px;
    max-height: 420px;
     margin-top: 60px;
-    /* background-size:contain; */
-    /* background-repeat: no-repeat;  */
     right: 0;
     bottom: 0;
     margin: 0px -96px 0px 0px ;
@@ -628,15 +614,12 @@ ul{
     padding-bottom: 44px;
 }
 .content__item-tabs{
-  /*   width: -webkit-fill-available; */
     flex: 0 0 66.3%;
     padding: 0;
 }
 
 
 .pressplay {
-   /*  width: 100%; */
-   
    max-width: 2200px;
    min-height: 100%;
    overflow: hidden;
@@ -653,21 +636,12 @@ ul{
 
 
 
-
-.pressplay__body {
-}
 .pressplay__video {
     position: relative;
     width: 100%;
 
 }
-.video__btn {
 
-}
-.video__wrapper{
-   
-
-}
 .play__button {
     position: absolute;
     left: 50%;
@@ -785,8 +759,7 @@ ul{
 
 
 }
-.complete__img {
-}
+
 .complete__title-2 {
   
     font-style: normal;
@@ -840,8 +813,7 @@ ul{
         background-image: url(/site2/images/bg/believe.jpg);
     }
 }
-.container {
-}
+
 .believe__content {
     width: fit-content;
     padding: 295px 0px 0px 0px;
@@ -1027,12 +999,6 @@ ul{
 
 
 
-
-/*  .slider._active{
-    opacity: 1;
-    transform: translateY(0);
-    
-}  */
 .section__slider {
     height: 1000px;
 }
@@ -1047,7 +1013,6 @@ ul{
 
 
 .slider__content-1 {
-    /* padding: 66px 33px 99px 33px ; */
     display: flex;
     flex-direction: column;
     min-width: 0;
@@ -1070,18 +1035,12 @@ ul{
     min-width: 0;
     display: flex;
     align-items: center;
-    /* padding: 0px 130px 65px 33px ; */
-
 }
 
-.user__avater {
-
-}
 .users__img {
     margin-right: 16px;
 }
-.user__meta {
-}
+
 .user__name {
     font-size: 14px;
     line-height: 20px;
@@ -1126,33 +1085,7 @@ ul{
 
 }
 
-/* Слайд */
-.slick-slide{ 
-}
-/* Слайд активный */
-.slick-slide.slick-active{
-    
-}
-/* Слайд основной */
-.slick-slide.slick-current{}
-/* Слайд по центру */
-.slick-slide.slick-center{}
 
-/* Стрелка */
-.slick-arrow{}
-/* Стрелка влево */
-.slick-arrow.slick-prev{}
-/* Стрелка вправо */
-.slick-arrow.slick-next{}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{}
-
-/* Точки */
-.slick-dots{}
-.slick-dots li{}
-.slick-dots button{}
-
-/* Конкретный слайдер */
 .slider {
     position: relative;
 }
@@ -1171,15 +1104,11 @@ ul{
     display: flex;
     width: 651px;
 }
-.slick-dots li{
- 
-}
 
 .slick-dots button{
     font-size: 0;
     width: 100px;
     height: 10px;
- /*    background-color:rgb(190, 25, 25); */
     background-color:transparent;
     color: rgb(255, 255, 255);
     transition: all 1s;
@@ -1187,13 +1116,8 @@ ul{
     border-radius:20px;
 
 }
-.slick__dots{
-   
-   
-}
+
 .slick-dots li.slick-active button {
-    /* background-color:transparent;
-    border: 1px solid rgb(138, 57, 57); */
     background-color:rgb(190, 25, 25);
 }
 
@@ -1323,26 +1247,9 @@ ul{
 
 
 .slider__item{
-    /* transition: all 0.3s;
-    opacity: 0.4; */
     text-align: center;
 }
 
-.slider__item.slick-center{
-    /* opacity: 1; 
-    чтобы работала нужно в js писать centerMode:true
-    */
-}
-
-
-
-
-/* .slider .slick-track{
-    display: block;
-} */
-
-
-.sliderbig{}
 
 .sliderbig__item{
     text-align: center;
@@ -1359,13 +1266,7 @@ ul{
     background-position-y: center;
     background-size: cover;
 }
-/* @media (min-width:768px) {
-    .integrations{
-        background-image:url(/images/bg/integrations-bg.png);
-        width: 100%;
-    }
-    
-} */
+
 @media (min-width:1100px) {
     .integrations{
         background-image:url(/site2/images/bg/integrations-bg.png);
@@ -1418,10 +1319,7 @@ ul{
     color: #FFFFFF;
 
 }
-.integrations__item-paralax{
 
-   
-}
 .integrations__item-2 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -1512,9 +1410,7 @@ ul{
     position: relative;
     min-width: 356px;
 }
-.slider-card-position-0 {
-    
-}
+
 .s-card__inner {
     background-color:#F2DCE4;
     display: flex;
@@ -1768,8 +1664,7 @@ ul{
     position: absolute;
     z-index: 2;
 }
-.slider-card-position-3 {
-}
+
 .s-card__inner-3 {
     min-width:356px;
     height: 444px;
@@ -1987,10 +1882,7 @@ ul{
     line-height: 20px;
     color: #FFFFFF;
 }
-.phone {
-}
-.footer__social {
-}
+
 .social-nav {
     display: flex;
 }
@@ -2005,12 +1897,7 @@ ul{
 .social__item-link svg path:hover{
     fill: #ffffff;
 } 
-.footer__column {
-}
-.footer__nav {
-}
-.footer-menu__wrapper {
-}
+
 .footer-menu__menu {
     margin: 0;
     padding: inherit;
@@ -2042,8 +1929,6 @@ text-decoration: underline;
 }
 .footer-menu__item-more:hover{
     text-decoration: underline;
-}
-.footer-menu__item-link {
 }
 .footer__promo {
     display: flex;
@@ -2095,8 +1980,7 @@ text-decoration: underline;
     -1px -0px rgb(198,120,78), -1px -1px rgb(238,169,23),
     -2px -1px 4px 0px rgb(197,119,77), -2px -2px rgb(237,168,22);
 }
-.footer__promo-link {
-}
+
 .footer__bottom {
     border-top: 1px solid #346170;
 }
@@ -2259,34 +2143,7 @@ text-decoration: underline;
         padding: 124px 0px;
         padding-bottom: 24px;
     }
-    .logo {
-    }
-    .logo__link {
-    }
-    .logo__img {
-    }
-    .header__inner {
-    }
-    .menu__icon {
-    }
-    .menu__body {
-    }
-    .menu__list {
-    }
-    .menu__item {
-        
-    }
     
-    .menu__link {
-    }
-    .header__link-demo {
-    }
-    .link-demo {
-    }
-    .header__link-login {
-    }
-    .link-login {
-    }
     .slider__title {
         transform: translate(200px, 0px);
     }
@@ -2793,23 +2650,5 @@ text-decoration: underline;
     }
     
 }
-
-
-
-
-
-
-
-
-/* @media screen and (min-width:1000px) and (max-width:1768px) {
- .top{
-    width: calc(var(--userWidth) + 20px);
- }
-} */
-
-
-
-
-
 
 
