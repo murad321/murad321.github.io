@@ -439,7 +439,7 @@ iframe{
   background: #fff;
   border: none;
   margin-bottom: 20px;
-  padding:0px 0px 0px 20px;
+  padding: 0px 20px 0px 20px;
   font-size: 14px;
   line-height: 23px;
   color: #5F5D5D;
@@ -460,7 +460,7 @@ iframe{
   border: none;
   margin-bottom: 20px;
   margin-left: 26px;
-  padding:0px 0px 0px 20px;
+  padding: 0px 20px 0px 20px;
   font-size: 14px;
   line-height: 23px;
   color: #5F5D5D;
