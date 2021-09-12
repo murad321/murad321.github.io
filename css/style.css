@@ -976,13 +976,13 @@ iframe{
 @media (max-width:535px ){
   .feedback__input-message{
     width: 255px;
-    padding: 17px 17px 143px 15px;
+    padding: 17px 17px 17px 15px;
   }
   .feedback__input-name{
-    padding: 0px 0px 0px 15px;
+    padding: 0px 15px 0px 15px;
   }
   .feedback__input-email{
-    padding: 0px 0px 0px 15px;
+    padding: 0px 15px 0px 15px;
   }
  
 
